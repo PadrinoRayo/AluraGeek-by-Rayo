@@ -1,0 +1,28 @@
+header {
+    width: 100%;
+    height: 70px;
+    background: #2E4C2C;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 138px;
+    height: 56px;
+}
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 80px;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+}

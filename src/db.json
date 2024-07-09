@@ -1,0 +1,22 @@
+{
+  "Products": [
+    {
+      "id": "1",
+      "title": "Play Station 5",
+      "price": 599,
+      "image": "https://www.cnet.com/a/img/resize/bebef835df90640f9aa2e4a2f2a2699cf53a301f/hub/2020/10/26/b60bfe6f-3193-4381-b0d4-ac628cdcc565/img-1419.jpg?auto=webp&width=1200"
+    },
+    {
+      "id": "5",
+      "title": "Xbox One S",
+      "price": 250,
+      "image": "https://www.digitaltrends.com/wp-content/uploads/2016/08/Xbox-One-S-review-9.jpg?p=1"
+    },
+    {
+      "id": "75f1",
+      "title": "Xbox Series X",
+      "price": "550",
+      "image": "https://www.showmetech.com.br/wp-content/uploads//2020/11/series-x-review.jpg"
+    }
+  ]
+}

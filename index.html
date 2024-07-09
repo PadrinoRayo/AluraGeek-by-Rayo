@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/logo-heart.png" alt="Logo Heart">
+        <h1>AluraGeek</h1>
+    </header>
+    <main>
+        <section class="products">
+            <h1>Mis Productos</h1>
+            <div class="card-container" dataCard></div>
+        </section>
+        <section class="form">
+            <h1>Agregar Producto</h1>
+            <form class="form-container" dataForm>
+                <ul>
+                    <li>
+                        <label for="title" />
+                        <input name="title" id="title" required placeholder="Nombre" dataTitle>
+                    </li>
+                    <li>
+                        <label for="price" />
+                        <input name="price" id="price" required placeholder="Precio" dataPrice>
+                    </li>
+                    <li>
+                        <label for="image" />
+                        <input name="image" id="image" required placeholder="Url De Imagen" dataImage>
+                    </li>
+                </ul>
+                <div class="button">
+                    <button class="send" type="submit">Enviar</button>
+                    <button class="delete" type="button" dataClear>Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+            <img src="assets/img/logo-heart.png" alt="Logo Heart">
+            <h1>AluraGeek</h1>
+        </div>
+        <p>Desarrollado Por Raymundo P</p>
+        <p>Alura Latam 2024</p>
+    </footer>
+
+    <script src="js/getProducts.js" type="module"></script>
+    <script src="js/createProduct.js" type="module"></script>
+</body>
+
+</html>

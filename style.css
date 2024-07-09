@@ -1,0 +1,15 @@
+@import url(css/normalize.css);
+@import url(css/header.css);
+@import url(css/main.css);
+@import url(css/products.css);
+@import url(css/form.css);
+@import url(css/footer.css);
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h1, p {
+    color: #FFFFFF;
+}
